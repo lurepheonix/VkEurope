@@ -22,5 +22,11 @@ public class Main implements IXposedHookZygoteInit, IXposedHookInitPackageResour
         resparam.res.setReplacement("com.vkontakte.android", "drawable", "ic_ab_app", modRes.fwd(R.drawable.ic_ab_app));
         resparam.res.setReplacement("com.vkontakte.android", "drawable", "icon", modRes.fwd(R.drawable.icon));
         resparam.res.setReplacement("com.vkontakte.android", "drawable", "login_logo", modRes.fwd(R.drawable.login_logo));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "audio_seeker_down", modRes.fwd(R.drawable.audio_seeker_down));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "audio_seeker_up", modRes.fwd(R.drawable.audio_seeker_up));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "audio_slider_down", modRes.fwd(R.drawable.audio_slider_down));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "audio_slider_up", modRes.fwd(R.drawable.audio_slider_up));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "audio_slider_focused", modRes.fwd(R.drawable.audio_slider_focused));
+        resparam.res.setReplacement("com.vkontakte.android", "drawable", "progress_player", modRes.fwd(R.drawable.progress_player));
     }
 }

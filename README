@@ -1,2 +1,8 @@
 A simple module which changes official Vkontakte app icons (В) to their European variant (VK).
 Just install, enable it in Xposed/WSM settings and reboot ;)
+
+
+CHANGELOG
+
+Version 1.1: added KitKat white slider for music and video players.
+Version 1.0: initial release.

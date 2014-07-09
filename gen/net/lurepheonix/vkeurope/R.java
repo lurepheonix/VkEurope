@@ -11,9 +11,15 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_ab_app=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int login_logo=0x7f020002;
+        public static final int audio_seeker_down=0x7f020000;
+        public static final int audio_seeker_up=0x7f020001;
+        public static final int audio_slider_down=0x7f020002;
+        public static final int audio_slider_focused=0x7f020003;
+        public static final int audio_slider_up=0x7f020004;
+        public static final int ic_ab_app=0x7f020005;
+        public static final int icon=0x7f020006;
+        public static final int login_logo=0x7f020007;
+        public static final int progress_player=0x7f020008;
     }
     public static final class string {
         public static final int app_name=0x7f030000;
